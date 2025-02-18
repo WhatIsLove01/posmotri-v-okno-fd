@@ -226,22 +226,17 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__textfield:focus {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
-}
-
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
 
 .search-form__pseudo-checkbox {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   width: 19px;
-  height: 19px; 
+  height: 19px;
   border: 1px solid #fff;
   background-color: transparent;
 }
@@ -251,7 +246,7 @@ ol {
   display: none;
   width: 15px;
   height: 15px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
