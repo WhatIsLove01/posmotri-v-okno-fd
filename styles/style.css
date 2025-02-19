@@ -69,8 +69,8 @@ ol {
 
 .content__list-container {
   position: relative;
-  block-size: 298px;
   overflow-y: auto;
+  block-size: 298px;
 }
 
 .content__details {
@@ -89,15 +89,15 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-block-end: 16px;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 16px;
 }
 
 .result__video {
+  object-fit: cover;
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
 }
 
 .content__list {
@@ -116,10 +116,10 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  inline-size: 194px;
-  block-size: 103px;
   object-fit: cover;
   object-position: center;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .content__video-card-description-container {
@@ -166,15 +166,15 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
-  overflow: hidden; 
+  overflow: hidden;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 145%;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 .visually-hidden {
@@ -199,14 +199,13 @@ ol {
   display: flex;
   align-items: end;
   gap: 5px;
-  inline-size: fit-content;
   margin-block-start: 7px;
   margin-block-end: 4px;
   cursor: pointer;
+  inline-size: fit-content;
 }
 
 .search-form__textfield {
-  inline-size: 225px;
   border: none;
   border-block-start: 1px solid currentColor;
   border-block-end: 1px solid currentColor;
@@ -215,6 +214,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   background-color: transparent;
+  inline-size: 225px;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -237,18 +237,18 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  inline-size: 19px;
-  block-size: 19px;
   border: 1px solid currentColor;
   background-color: transparent;
+  inline-size: 19px;
+  block-size: 19px;
 }
 
 .search-form__pseudo-checkbox::after {
   content: "";
   display: none;
+  background-color: #ffffff;
   inline-size: 15px;
   block-size: 15px;
-  background-color: #ffffff;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -291,8 +291,8 @@ button:focus-visible {
 
 .search-form__submit-button {
   align-self: end;
-  inline-size: 194px;
   margin-block-end: 2px;
+  inline-size: 194px;
 }
 
 .more-button {
