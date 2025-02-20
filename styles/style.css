@@ -103,10 +103,10 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .content__list-item {
-  margin-block-end: 30px;
   padding: 0 3px;
 }
 
